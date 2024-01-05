@@ -38,6 +38,7 @@
     list-style-type: none;
     width: 525px;
     height: 525px;
+    margin: 0 auto;
     overflow: hidden;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -101,5 +102,116 @@
 }
 
 .popit-button.active {
-    box-shadow: inset 0 0 40px rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, .6);
+}
+
+.popit-button:hover {
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, .6);
+}
+
+.popit-button.active:hover {
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, .7);
+}
+
+@media screen and (max-width: 992px) {
+    .popit {
+        width: 490px;
+        height: 490px;
+    }
+    .popit-row {
+        height: calc(490px / 7);
+    }
+    .popit-button {
+        width: calc(490px / 7 - 16px);
+        height: calc(490px / 7 - 16px);
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .popit {
+        width: 455px;
+        height: 455px;
+    }
+    .popit-row {
+        height: calc(455px / 7);
+    }
+    .popit-button {
+        width: calc(435px / 7 - 10px);
+        height: calc(435px / 7 - 10px);
+        /* width: calc(455px / 7 - 10px);
+        height: calc(455px / 7 - 10px); */
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .popit {
+        width: 420px;
+        height: 420px;
+    }
+    .popit-row {
+        height: calc(420px / 7);
+    }
+    .popit-button {
+        width: calc(410px / 7 - 10px);
+        height: calc(410px / 7 - 10px);
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .popit {
+        width: 385px;
+        height: 385px;
+    }
+    .popit-row {
+        /* padding: 6px; */
+        height: calc(385px / 7);
+    }
+    .popit-button {
+        width: calc(365px / 7 - 8px);
+        height: calc(365px / 7 - 8px);
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .popit {
+        width: 350px;
+        height: 350px;
+    }
+    .popit-row {
+        height: calc(350px / 7);
+    }
+    .popit-button {
+        width: calc(335px / 7 - 6px);
+        height: calc(335px / 7 - 6px);
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .popit {
+        width: 315px;
+        height: 315px;
+    }
+    .popit-row {
+        height: calc(315px / 7);
+        padding: 6px;
+
+    }
+    .popit-button {
+        width: calc(305px / 7 - 6px);
+        height: calc(305px / 7 - 6px);
+    }
+}
+
+@media screen and (max-width: 364px) {
+    .popit {
+        width: 280px;
+        height: 280px;
+    }
+    .popit-row {
+        height: calc(280px / 7);
+    }
+    .popit-button {
+        width: calc(260px / 7 - 4px);
+        height: calc(260px / 7 - 4px);
+    }
 }

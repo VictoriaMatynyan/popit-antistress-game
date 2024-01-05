@@ -4,7 +4,7 @@
 **Pop it** is a famous simple game that helps to kill one's time when needed. Realized with HTML5, CSS3 and a bit of JavaScript.
 One can use it while waiting in line, taking a bus, going to subway and so on.
 
-### Applied decisions in Project No.2:
+### Applied decisions:
 * HTML5 and CSS3;
 * pseudo-classes for CSS selectors;
 * CSS animation;
@@ -13,4 +13,4 @@ One can use it while waiting in line, taking a bus, going to subway and so on.
 * media queries;  
 * adaptive web-design has been realized up to 320px.
 
-### Please, enjoy! :)
+### Please, enjoy!
